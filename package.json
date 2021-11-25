@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "cypress": "./node_modules/.bin/cypress open"
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "http://localhost:3000",
   "eslintConfig": {
     "extends": [
       "react-app",
