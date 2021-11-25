@@ -3,8 +3,8 @@ import './App.css';
 import Header from './header/Header.js';
 import Main from './main/Main.js';
 import { Route } from 'react-router-dom'
-// import { fetchData } from './data/apiData'
-import { fetchData } from '../public/apiData'
+import { fetchData } from './data/apiData'
+
 class App extends React.Component{
   constructor() {
     super();
