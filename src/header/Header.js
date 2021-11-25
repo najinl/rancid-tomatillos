@@ -21,7 +21,7 @@ class Header extends React.Component {
       <img src={img} />
       <h1>Rancid Tomatillos</h1>
       <div>
-        <label for="search-input">
+        <label htmlFor="search-input">
           Search:
           <input placeholder="Search Titles..." type='text' id="search-input" value={this.state.value} onChange={event => {
             this.handleChange(event)
